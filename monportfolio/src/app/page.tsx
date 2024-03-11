@@ -8,7 +8,7 @@ export default function Home() {
 		<div className="hero w-full bg-secondary ">
 			<div className="hero-content text-center justify-center items-center place-self-center">
 				<div>
-					<img src="/Linkedin pic.JPG" className="mx-auto h-64"/>
+					<img src="/Linkedin pic.JPG" className="mx-auto h-64" alt="Photo de moi"/>
 					<div className="max-w-md ">
 						<h1 className="text-5x1 font-bold py-3">Mathieu Giard</h1>
 						<p className="">Courriel: mathieu.giard@outlook.com</p>
@@ -22,7 +22,9 @@ export default function Home() {
 				</div>
 			</div>
 		</div>
-		<p className="text-center p-4">Bonjour, je m'appelle Mathieu Giard et je suis une personne passionnée par la programmation. Après avoir obtenu mon diplôme d'étude secondaire à l'école de Monseigneur-A.-M.-Parent, j'ai fait le choix de m'inscrire au Collège de Maisonneuve dans le programme de techniques informatique dans le profil de développement d'applications. Pour en savoir plus sur  mes connaissances, vous pouvez parcourir mon site portfolio ou tout simplement lire mon curriculum vitae (CV) situé en-dessous de ce paragraphe. Merci !</p>
+		<p className="text-center p-4">
+			Bonjour, je m&apos;appelle Mathieu Giard et je suis une personne passionnée par la programmation. Après avoir obtenu mon diplôme d&apos;étude secondaire à l&apos;école de Monseigneur-A.-M.-Parent, j&apos;ai fait le choix de m&apos;inscrire au Collège de Maisonneuve dans le programme de techniques informatique dans le profil de développement d&apos;applications. Pour en savoir plus sur  mes connaissances, vous pouvez parcourir mon site portfolio ou tout simplement lire mon curriculum vitae (CV) situé en-dessous de ce paragraphe. Merci !
+		</p>
 		<div className="flex justify-center">
 			<iframe src="/Mathieu_GiardCV.pdf" className="h-lvh w-3/4 pb-4" />
 		</div>
