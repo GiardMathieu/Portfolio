@@ -34,3 +34,8 @@ jobs:
           BRANCH: gh-pages  # Change this if you're using a different branch
           FOLDER: monportfolio/.next  # Change this if your build output folder is different
           working-directory: monportfolio
+
+permissions:
+  pull-requests: write
+  contents: write
+  repository-projects: write
