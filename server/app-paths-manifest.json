@@ -1,12 +1,12 @@
 {
   "/_not-found": "app/_not-found.js",
-  "/contacts/page": "app/contacts/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/contacts/page": "app/contacts/page.js",
   "/page": "app/page.js",
   "/portfolio/page": "app/portfolio/page.js",
   "/project/1/page": "app/project/1/page.js",
   "/project/2/page": "app/project/2/page.js",
   "/project/3/page": "app/project/3/page.js",
-  "/project/4/page": "app/project/4/page.js",
-  "/project/5/page": "app/project/5/page.js"
+  "/project/5/page": "app/project/5/page.js",
+  "/project/4/page": "app/project/4/page.js"
 }
