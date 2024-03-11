@@ -45,13 +45,14 @@ jobs:
           fi
       - name: Setup Node
         steps:
-          - uses: actions/checkout@v4
           - uses: actions/setup-node@v4
+          - uses: actions/checkout@v4
         with:
             node-version: 20
             cache: 'npm'
-        - run: npm ci
-        - run: npm test
+            cache-dependency-path: subdir/package-lock.json
+        -  run: npm ci
+        -  run: npm test  
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
