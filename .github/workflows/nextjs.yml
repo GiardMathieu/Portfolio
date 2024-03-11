@@ -42,7 +42,6 @@ jobs:
           else
             echo "Unable to determine package manager"
             exit 1
-          fi
       - name: Setup Node
         steps:
           - uses: actions/checkout@v4
