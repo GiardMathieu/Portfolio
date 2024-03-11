@@ -24,6 +24,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        working-directory: monportfolio
+      
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
